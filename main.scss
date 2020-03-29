@@ -21,6 +21,28 @@
         backdrop-filter: brightness(0.3) blur(var(--chatty-blur));
         .scroller-2TZvBN
         {
+            .listItem-2P_4kh
+            {
+                .blobContainer-239gwq
+                {
+                    .wrapper-25eVIn
+                    {
+                        .lowerBadge-29hYVK
+                        {
+                            .numberBadge-2s8kKX
+                            {
+                                background: var(--chatty-accent) !important;
+                                padding-right: 0px !important;
+                                margin-right: 55px !important;
+                                height: 40px;
+                                border-radius: 4px;
+                                padding-right: 1000px !important;
+                                margin-bottom: 5px !important;
+                            }
+                        }
+                    }
+                }
+            }
             padding-top: 12px !important;
             margin-bottom: 3px;
             background: none !important;
@@ -118,6 +140,25 @@
         border-radius: var(--chatty-radius) !important;
         transition: var(--chatty-transition) !important;
         box-shadow: var(--chatty-shadow-medium) !important;
+        .notice-2FJMB4
+        {
+            position: absolute;
+            border-radius: calc(var(--chatty-radius)*0.5);
+            bottom: 10px;
+            width: 350px;
+            right: 10px;
+            background: inherit;
+            backdrop-filter: blur(var(--chatty-blur)) brightness(0.4);
+        }
+        .noticeStreamerMode-2TSQpg
+        {
+            position: absolute;
+            border-radius: calc(var(--chatty-radius)*0.5);
+            bottom: 10px;
+            width: 350px;
+            right: 10px;
+            background: linear-gradient(60deg,rgba(255, 5, 180, 0.3),rgba(88, 10, 78, 0.4));
+        }
         .content-98HsJk
         {
             background: inherit;
@@ -207,6 +248,14 @@
                                     background: none !important;
                                     .wrapper-2a6GCs
                                     {
+                                        .channelTextArea-2VhZ6z
+                                        {
+                                            .scrollableContainer-2NUZem
+                                            {
+                                                background: var(--chatty-darken-medium);
+                                                border-radius: calc(var(--chatty-radius)*0.7);
+                                            }
+                                        }
                                         .container-1ov-mD
                                         {
                                             .imageWrapper-2p5ogY
@@ -261,7 +310,7 @@
     --chatty-bg-1: var(--chatty-darken-low);
     --chatty-bg-2: inherit;
     --chatty-bg-3: inherit;
-    --chatty-accent: #2bbd3e;
+    --chatty-accent: #ff8181;
     --chatty-darken-low: rgba(0,0,0,0.2);
     --chatty-darken-medium: rgba(0,0,0,0.5);
     --chatty-darken-high: rgba(0,0,0,0.8);
@@ -272,6 +321,10 @@
     --chatty-radius: 10px;
     --chatty-blur: var(--chatty-radius);
     --chatty-padding: calc(var(--chatty-radius)*1.1);
+}
+* button
+{
+    border-radius: calc(var(--chatty-radius)*0.7) !important;
 }
 .anchor-3Z-8Bb[title^="chatty://"] + u > strong, .anchor-3Z-8Bb[title^="chatty://"] ~ time {
     display: none;
