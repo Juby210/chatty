@@ -1,3 +1,21 @@
+:root
+{
+    --chatty-background-image: url(https://source.unsplash.com/daily/?abstract);
+    --chatty-bg-1: var(--chatty-darken-low);
+    --chatty-bg-2: inherit;
+    --chatty-bg-3: inherit;
+    --chatty-accent: #ff8181;
+    --chatty-darken-low: rgba(0,0,0,0.2);
+    --chatty-darken-medium: rgba(0,0,0,0.5);
+    --chatty-darken-high: rgba(0,0,0,0.8);
+    --chatty-transition: ease-in-out 0.2s;
+    --chatty-shadow-high: 0px 5px 20px -10px #000;
+    --chatty-shadow-medium: 0px 2px 8px -5px #000;
+    --chatty-shadow-low: 0px 1px 2px -1px #000;
+    --chatty-radius: 10px;
+    --chatty-blur: var(--chatty-radius);
+    --chatty-padding: calc(var(--chatty-radius)*1.1);
+}
 .bg-h5JY_x
 {
     background: var(--chatty-bg-1);
@@ -18,7 +36,7 @@
         box-shadow: var(--chatty-shadow-medium);
         background: var(--chatty-bg-3);
         border-radius: var(--chatty-radius);
-        backdrop-filter: brightness(0.3) blur(var(--chatty-blur));
+        backdrop-filter: brightness(0.6) blur(var(--chatty-blur));
         .scroller-2TZvBN
         {
             .listItem-2P_4kh
@@ -163,7 +181,7 @@
         {
             background: inherit;
             border-radius: var(--chatty-radius);
-            backdrop-filter: brightness(0.4) blur(var(--chatty-blur));
+            backdrop-filter: brightness(0.5) blur(var(--chatty-blur));
             .sidebar-2K8pFh
             {
                 background: none;
@@ -304,49 +322,9 @@
         }
     }
 }
-:root
-{
-    --chatty-background-image: url(https://source.unsplash.com/daily/?abstract);
-    --chatty-bg-1: var(--chatty-darken-low);
-    --chatty-bg-2: inherit;
-    --chatty-bg-3: inherit;
-    --chatty-accent: #ff8181;
-    --chatty-darken-low: rgba(0,0,0,0.2);
-    --chatty-darken-medium: rgba(0,0,0,0.5);
-    --chatty-darken-high: rgba(0,0,0,0.8);
-    --chatty-transition: ease-in-out 0.2s;
-    --chatty-shadow-high: 0px 5px 20px -10px #000;
-    --chatty-shadow-medium: 0px 2px 8px -5px #000;
-    --chatty-shadow-low: 0px 1px 2px -1px #000;
-    --chatty-radius: 10px;
-    --chatty-blur: var(--chatty-radius);
-    --chatty-padding: calc(var(--chatty-radius)*1.1);
-}
 * button
 {
     border-radius: calc(var(--chatty-radius)*0.7) !important;
-}
-.anchor-3Z-8Bb[title^="chatty://"] + u > strong, .anchor-3Z-8Bb[title^="chatty://"] ~ time {
-    display: none;
-}
-
-.anchor-3Z-8Bb[title^="chatty://"] {
-    display: flex;
-    visibility: hidden;
-    pointer-events: none;
-    font-weight: normal;
-    height: 70px !important;
-}
-
-.anchor-3Z-8Bb[title^="chatty://"]::before {
-    color: white;
-    visibility: visible;
-    position: absolute;
-}
-
-.anchor-3Z-8Bb[title="chatty://testing"]::before {
-    font-size: 30px;
-    content: '\aWelcome to Robs Corner.\a\aIf you can see this you are using Chatty.';
 }
 *::-webkit-scrollbar-track-piece
 {
