@@ -1,27 +1,23 @@
 :root
 {
-    --chatty-background-image: url(https://source.unsplash.com/daily/?abstract);
-    --chatty-bg-1: var(--chatty-darken-low);
-    --chatty-bg-2: inherit;
-    --chatty-bg-3: inherit;
-    --chatty-accent: #ff8181;
+    --chatty-bg-1: #302433;
+    --chatty-bg-2: #403041;
+    --chatty-bg-3: #503c4e;
+    --chatty-accent: #9c5895;
     --chatty-darken-low: rgba(0,0,0,0.2);
     --chatty-darken-medium: rgba(0,0,0,0.5);
     --chatty-darken-high: rgba(0,0,0,0.8);
-    --chatty-transition: ease-in-out 0.2s;
+    --chatty-transition: ease-in-out 0.4s;
     --chatty-shadow-high: 0px 5px 20px -10px #000;
     --chatty-shadow-medium: 0px 2px 8px -5px #000;
     --chatty-shadow-low: 0px 1px 2px -1px #000;
     --chatty-radius: 10px;
-    --chatty-blur: var(--chatty-radius);
     --chatty-padding: calc(var(--chatty-radius)*1.1);
 }
 .bg-h5JY_x
 {
     background: var(--chatty-bg-1);
     border: 1px solid var(--chatty-accent);
-    background-image: var(--chatty-background-image) !important;
-    background-size: cover;
 }
 .container-2lgZY8
 {
@@ -34,9 +30,8 @@
         transition: var(--chatty-transition) !important;
         width: 12px !important;
         box-shadow: var(--chatty-shadow-medium);
-        background: var(--chatty-bg-3);
+        background: var(--chatty-bg-2);
         border-radius: var(--chatty-radius);
-        backdrop-filter: brightness(0.6) blur(var(--chatty-blur));
         .scroller-2TZvBN
         {
             .listItem-2P_4kh
@@ -66,7 +61,7 @@
             background: none !important;
             .childWrapper-anI2G9
             {
-                background: var(--chatty-darken-medium) !important;
+                background: var(--chatty-darken-low) !important;
             }
             .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9
             {
@@ -75,28 +70,12 @@
             .circleIconButton-jET_ig
             {
                 border-radius: 200% !important;
-                background: var(--chatty-darken-medium);
+                background: var(--chatty-darken-low);
                 transition: var(--chatty-transition);
             }
             .circleIconButton-jET_ig:hover
             {
                 border-radius: calc(var(--chatty-radius)*0.6) !important;
-            }
-            [class="wrapper-21YSNc unread expanded"],[class="wrapper-21YSNc expanded"],[class="wrapper-21YSNc selected expanded"],[class="wrapper-21YSNc unread selected expanded"]
-            {
-                .expandedFolderBackground-2sPsd-
-                {
-                    background: rgba(0,0,0,0.3) !important;
-                    padding: 5px !important;
-                    border-radius: var(--chatty-radius) !important;
-                }
-                .expandedFolderIconWrapper-1xLaU-, .folder-21wGz3
-                {
-                    background: var(--chatty-bg-3) !important;
-                    border-radius: calc(var(--chatty-radius) *0.6 ) !important;
-                }
-                padding:5px !important;
-                margin-left: -5px !important;
             }
             .wrapper-25eVIn
             {
@@ -165,8 +144,7 @@
             bottom: 10px;
             width: 350px;
             right: 10px;
-            background: inherit;
-            backdrop-filter: blur(var(--chatty-blur)) brightness(0.4);
+            background: var(--chatty-bg-2);
         }
         .noticeStreamerMode-2TSQpg
         {
@@ -175,13 +153,11 @@
             bottom: 10px;
             width: 350px;
             right: 10px;
-            background: linear-gradient(60deg,rgba(255, 5, 180, 0.3),rgba(88, 10, 78, 0.4));
         }
         .content-98HsJk
         {
-            background: inherit;
+            background: var(--chatty-bg-3);
             border-radius: var(--chatty-radius);
-            backdrop-filter: brightness(0.5) blur(var(--chatty-blur));
             .sidebar-2K8pFh
             {
                 background: none;
@@ -192,7 +168,7 @@
                     {
                         .containerDefault-1ZnADq
                         {
-                            background: var(--chatty-bg-1);
+                            background: var(--chatty-bg-2);
                             border-radius: var(--chatty-radius);
                             margin-bottom: 5px !important;
                             margin-left: 10px;
@@ -246,8 +222,14 @@
                             {
                                 .searchBar-3dMhjb
                                 {
-                                    background: var(--chatty-darken-medium);
+                                    background: var(--chatty-darken-low);
+                                    width: 25px;
                                     border-radius: calc(var(--chatty-radius)*0.6);
+                                    transition: var(--chatty-transition);
+                                }
+                                .searchBar-3dMhjb:hover
+                                {
+                                    width: 200px;
                                 }
                             }
                         }
@@ -270,7 +252,7 @@
                                         {
                                             .scrollableContainer-2NUZem
                                             {
-                                                background: var(--chatty-darken-medium);
+                                                background: var(--chatty-darken-low);
                                                 border-radius: calc(var(--chatty-radius)*0.7);
                                             }
                                         }
@@ -294,7 +276,7 @@
                         {
                             .channelTextArea-rNsIhG
                             {
-                                background: var(--chatty-darken-medium) !important;
+                                background: var(--chatty-darken-low) !important;
                                 border-radius: calc(var(--chatty-radius)*0.7);
                                 .scrollableContainer-2NUZem
                                 {
@@ -334,7 +316,7 @@
 }
 *::-webkit-scrollbar-thumb
 {
-    background: var(--chatty-darken-high) !important;
+    background: var(--chatty-darken-low) !important;
 }
 *::-webkit-scrollbar
 {
