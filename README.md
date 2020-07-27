@@ -1,2 +1,2 @@
-# chatty
-A round blurry theme with customizations now gn
+#chatty
+:flushed: brb im working on it
