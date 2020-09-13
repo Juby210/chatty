@@ -1,0 +1,11 @@
+@import 'basics/transparent';
+@import 'basics/powercord_toast';
+@import 'basics/buttons';
+@import 'basics/profile_modal';
+
+:root {
+    --chattyBackgroundImage: url(https://source.unsplash.com/daily/?abstract);
+    --chattyBorderRadius: 5px;
+    --chattyPadding: 8px;
+    --chattyBlur: 100px;
+}
