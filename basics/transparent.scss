@@ -39,10 +39,24 @@
             border-radius: var(--chattyBorderRadius);
             margin-top: var(--chattyPadding);
             margin-bottom: var(--chattyPadding);
-            .container-PNkimc {
+            .container-3w7J-x {
                 background: transparent;
-                .header-2o-2hj {
+                .header-2V-4Sw {
                     box-shadow: none;
+                }
+            }
+            .privateChannels-1nO12o {
+                background: transparent;
+                .searchBar-6Kv8R2 {
+                    box-shadow: none;
+                    .searchBarComponent-32dTOx {
+                        text-align: center ;
+                        background: rgba(0,0,0,0.4);
+                        color: #888;
+                    }
+                }
+                .scroller-1JbKMe {
+                    background: transparent;
                 }
             }
             .panels-j1Uci_ {
@@ -89,7 +103,7 @@
             .content-yTz4x3:before {
                 display: none;
             }
-            .messages-3amgkR {
+            .messagesWrapper-1sRNjr {
                 background: transparent;
                 .blockquoteDivider-2hH8H6 {
                     width: 0px;
@@ -99,11 +113,24 @@
                     border-radius: var(--chattyBorderRadius);
                     padding: 8px;
                 }
-                .imageWrapper-2p5ogY img {
+                .imageWrapper-2p5ogY{
                     border-radius: var(--chattyBorderRadius);
+                    box-shadow: var(--elevationHigh);
+                    transition: 0.2s ease-in-out;
+                }
+                .imageWrapper-2p5ogY:hover {
+                    transform: scaleY(1.02) scaleX(1.02);
                 }
                 .video-8eMOth {
                     border-radius: var(--chattyBorderRadius);
+                    box-shadow: var(--elevationHigh);
+                }
+                .embedFull-2tM8-- {
+                    background: rgba(0,0,0,0.4);
+                    border-left: 0px;
+                    border-bottom: var(--chattyBorderRadius) solid;
+                    border-radius: var(--chattyBorderRadius);
+                    box-shadow: var(--elevationHigh);
                 }
             }
             .form-2fGMdU:before {
