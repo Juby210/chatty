@@ -24,11 +24,17 @@
                 .listItem-2P_4kh {
                     .wrapper-25eVIn {
                         .svg-1X37T1 {
-                            border-radius: 100px;
                             overflow: hidden;
                             mask {
                                 display: none;
                             }
+                        }
+                        .wrapper-1BJsBx {
+                            border-radius: 100%;
+                            overflow: hidden;
+                        }
+                        .wrapper-1BJsBx.selected-bZ3Lue {
+                            border-radius: var(--chattyBorderRadius);
                         }
                     }
                 }
