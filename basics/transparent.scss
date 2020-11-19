@@ -168,6 +168,30 @@
                 }
             }
         }
+        .noChannel-Z1DQK7 {
+            background: transparent;
+            border-radius: var(--chattyBorderRadius);
+            margin: var(--chattyPadding);
+            .image-1GzsFd {
+                display: none;
+            }
+            .flexChild-faoVW3 {
+                background: rgba(0,0,0,0.4);
+                padding: 20px;
+                border-radius: var(--chattyBorderRadius);
+                .title-2BxgL2 {
+                    color: #f53e3e;
+                    text-shadow: #f53e3e 0px 0px 0px;
+                    transition: 0.4s ease-in-out;
+                }
+                .title-2BxgL2:hover {
+                    text-shadow: #f53e3e 0px 0px 20px;
+                }
+                .text-GwUZgS {
+                    color: #c0c0c0;
+                }
+            }
+        }
     }
 }
 *::-webkit-scrollbar-thumb {
