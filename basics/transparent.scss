@@ -45,16 +45,16 @@
                             overflow: hidden;
                         }
                         .folder-21wGz3 {
-                            background: rgba(0,0,0,0.4) !important;
-                            border-radius: var(--chattyBorderRadius) 10px 0 0px;
+                            background: transparent !important;
                         }
                     }
                 }
                 .wrapper-21YSNc {
                     .expandedFolderBackground-2sPsd- {
-                        margin-top: 48px;
                         background: rgba(0,0,0,0.4);
-                        border-radius:  0 0 100px 100px;
+                        border-radius: var(--chattyBorderRadius);
+                        padding-top: 48px;
+                        margin-bottom: 17px;
                     }
                 }
             }
